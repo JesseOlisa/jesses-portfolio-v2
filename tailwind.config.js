@@ -29,18 +29,9 @@ module.exports = {
 						transform: 'scale(1)',
 					},
 				},
-				line: {
-					'0%': {
-						width: '20%',
-					},
-					'100%': {
-						width: '90%',
-					},
-				},
 			},
 			animation: {
-				'fade-in': 'fade 0.6s ease-in-out',
-				'slide-in': 'line 1.5s linear',
+				'fade-in': 'fade 0.8s ease-in-out',
 			},
 		},
 	},
