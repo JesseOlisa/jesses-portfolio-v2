@@ -40,7 +40,7 @@ module.exports = {
 			},
 			animation: {
 				'fade-in': 'fade 0.6s ease-in-out',
-				'slide-in': 'line 0.8s ease-in',
+				'slide-in': 'line 1.5s linear',
 			},
 		},
 	},
