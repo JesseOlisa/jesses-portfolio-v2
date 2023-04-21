@@ -37,7 +37,6 @@ const HeroSection = () => {
 					alt="Jesse's memoji"
 					width={350}
 					height={100}
-					priority
 					className='bg-black/95 rounded-full'
 				/>
 			</div>
