@@ -16,7 +16,7 @@ export const frontendTools = [
 	},
 	{
 		name: 'JavaScript',
-		image: '/icons/javaScript-1.svg',
+		image: '/icons/javascript-1.svg',
 		color: '#f0db4f',
 	},
 	{
