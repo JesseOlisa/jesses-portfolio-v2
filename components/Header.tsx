@@ -8,6 +8,7 @@ const Header = () => {
 				<a
 					href='https://drive.google.com/uc?export=download&id=1qTFUX8yuL1AdtJhFZmVA0sLUykgCKQvh'
 					download='Jesse_Ogbonna_CV'
+					target='_blank'
 				>
 					My Resume
 				</a>
