@@ -4,11 +4,12 @@ import { motion } from 'framer-motion';
 import { frontendTools } from '../utils/data';
 
 const SkillsSection = () => {
+	let isMobileScreen = typeof window !== 'undefined' && window.innerWidth < 768;
 	return (
 		<section className='relative px-12 bg-zinc-800/30 py-14 bg-opacity-20 border-y border-white border-opacity-10'>
 			<motion.div
-				initial={{ opacity: 0, x: window.innerWidth < 768 ? -280 : -200 }}
-				whileInView={{ opacity: 1, x: window.innerWidth < 769 ? -280 : -150 }}
+				initial={{ opacity: 0, x: isMobileScreen ? -280 : -200 }}
+				whileInView={{ opacity: 1, x: isMobileScreen ? -280 : -150 }}
 				transition={{
 					delay: 0.6,
 					duration: 0.8,
