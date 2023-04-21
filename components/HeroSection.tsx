@@ -8,7 +8,7 @@ const HeroSection = () => {
 			<div>
 				<h1 className='flex flex-col font-semibold mb-8'>
 					<span>Hi.</span>
-					<span>I'm Jesse.</span>
+					<span>I&apos;m Jesse.</span>
 					<span className='text-[#BF40BF] font-semibold relative drop-shadow-[0_0_0.3rem_#BF40BF60]'>
 						Frontend Developer.
 					</span>

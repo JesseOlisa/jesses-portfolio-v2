@@ -13,7 +13,7 @@ const Footer = () => {
 			<p className='opacity-80 max-w-md text-center'>
 				I am currently looking to join a team of creative developers and
 				designers to build amazing products. If you have any proposals, ideas or
-				just want to say hello, hit any of these icons and let's connect.
+				just want to say hello, hit any of these icons and let&apos;s connect.
 			</p>
 			<div className='flex-center gap-3'>
 				<Link
