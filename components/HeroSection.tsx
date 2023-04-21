@@ -32,7 +32,14 @@ const HeroSection = () => {
 				</p>
 			</div>
 			<div className='bg-profile-bg rounded-full p-2 animate-fade-in'>
-				<Image
+				{/* <Image
+					src='/hero_image.png'
+					alt="Jesse's memoji"
+					width={350}
+					height={100}
+					className='bg-black/95 rounded-full'
+				/> */}
+				<img
 					src='/hero_image.png'
 					alt="Jesse's memoji"
 					width={350}
