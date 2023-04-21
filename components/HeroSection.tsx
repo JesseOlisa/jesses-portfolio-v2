@@ -45,7 +45,7 @@ const HeroSection = () => {
 				className='bg-profile-bg rounded-full'
 			>
 				<Image
-					src='/profile.png'
+					src='/hero_image.png'
 					alt="Jesse's memoji"
 					width={350}
 					height={100}
