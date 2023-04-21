@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const HeroSection = () => {
+	const [loading, setloading] = useState(true);
+
+	const showHeroImage = loading ? 'opacity-0' : 'animate-fade-in';
 	return (
 		<section className='py-12 flex-start md:flex-center flex-col-reverse gap-y-10 md:gap-y-0 md:flex-row md:py-12 w-full min-h-[85vh] md:gap-x-36 bg-backdrop px-12'>
 			<div>
@@ -23,12 +26,13 @@ const HeroSection = () => {
 				</p>
 			</div>
 			<div>
-				<div className='bg-profile-bg rounded-full p-2 animate-fade-in'>
+				<div className={`bg-profile-bg rounded-full p-2 ${showHeroImage}`}>
 					<Image
 						src='/hero_image.png'
 						alt="Jesse's memoji"
 						width={350}
 						height={100}
+						onLoadingComplete={() => setloading(false)}
 						priority
 						className='bg-black/95 rounded-full'
 					/>
