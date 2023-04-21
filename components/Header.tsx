@@ -6,7 +6,7 @@ const Header = () => {
 			<code>Jesse.Olisa</code>
 			<button className='bg-[#BF40BF]/90 hover:bg-[#BF40BF]/100 transition px-2 py-2 text-sm rounded-lg'>
 				<a
-					href='/jesse_ogbonna_CV.pdf'
+					href='https://drive.google.com/uc?export=download&id=1qTFUX8yuL1AdtJhFZmVA0sLUykgCKQvh'
 					download='Jesse_Ogbonna_CV'
 				>
 					My Resume
