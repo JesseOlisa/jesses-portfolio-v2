@@ -13,12 +13,12 @@ const HeroSection = () => {
 						Frontend Developer.
 					</span>
 					<motion.span
-						initial={{
-							width: '10%',
-						}}
-						animate={{
-							width: '90%',
-						}}
+						// initial={{
+						// 	width: '10%',
+						// }}
+						// animate={{
+						// 	width: '90%',
+						// }}
 						// transition={{ ease: 'easeIn', duration: 0.9 }}
 						className='block h-1 mt-1 bg-profile-bg max-w-sm'
 					></motion.span>
@@ -31,13 +31,7 @@ const HeroSection = () => {
 					into real life products.
 				</p>
 			</div>
-			{/* <div className='bg-profile-bg rounded-full p-2'> */}
-			<motion.div
-				initial={{ opacity: 0, scale: 0.95 }}
-				animate={{ opacity: 1, scale: 1 }}
-				transition={{ duration: 0.8, ease: 'easeOut' }}
-				className='bg-profile-bg rounded-full p-2'
-			>
+			<div className='bg-profile-bg rounded-full p-2 animate-fade-in'>
 				<Image
 					src='/hero_image.png'
 					alt="Jesse's memoji"
@@ -46,8 +40,7 @@ const HeroSection = () => {
 					priority
 					className='bg-black/95 rounded-full'
 				/>
-			</motion.div>
-			{/* </div> */}
+			</div>
 		</section>
 	);
 };

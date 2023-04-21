@@ -18,6 +18,21 @@ module.exports = {
 			grayscale: {
 				30: '30%',
 			},
+			keyframes: {
+				fade: {
+					'0%': {
+						opacity: 0,
+						transform: 'scale(0)',
+					},
+					'100%': {
+						opacity: 1,
+						transform: 'scale(1)',
+					},
+				},
+			},
+			animation: {
+				'fade-in': 'fade 0.8s ease-in-out',
+			},
 		},
 	},
 	plugins: [],
