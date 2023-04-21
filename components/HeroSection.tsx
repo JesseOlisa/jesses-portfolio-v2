@@ -15,12 +15,7 @@ const HeroSection = () => {
 					<span className='text-[#BF40BF] font-semibold relative drop-shadow-[0_0_0.3rem_#BF40BF60]'>
 						Frontend Developer.
 					</span>
-					<motion.span
-						initial={{ width: '10%' }}
-						animate={{ width: '90%' }}
-						transition={{ duration: 1.1 }}
-						className='block h-1 mt-1 bg-profile-bg max-w-sm'
-					></motion.span>
+					<motion.span className='block w-[20%] animate-slide-in h-1 mt-1 bg-profile-bg'></motion.span>
 				</h1>
 				<p className='max-w-lg text-[0.9rem] md:text-[1.1rem] opacity-90 mb-3'>
 					I enjoy building various frontend products with great user experience.

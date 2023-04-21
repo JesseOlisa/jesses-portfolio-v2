@@ -20,7 +20,7 @@ module.exports = {
 			},
 			keyframes: {
 				fade: {
-					'0%, 50%': {
+					'0%': {
 						opacity: 0,
 						transform: 'scale(0)',
 					},
@@ -29,9 +29,18 @@ module.exports = {
 						transform: 'scale(1)',
 					},
 				},
+				line: {
+					'0%': {
+						width: '20%',
+					},
+					'100%': {
+						width: '90%',
+					},
+				},
 			},
 			animation: {
-				'fade-in': 'fade 0.8s ease-in-out',
+				'fade-in': 'fade 0.6s ease-in-out',
+				'slide-in': 'line 0.8s ease-in',
 			},
 		},
 	},
