@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
 	return (
-		<section className=' border-r flex-start md:flex-center flex-col-reverse gap-y-10 md:gap-y-0 md:flex-row md:py-12 w-full min-h-[85vh] md:gap-x-36 bg-backdrop px-12'>
+		<section className='py-12 flex-start md:flex-center flex-col-reverse gap-y-10 md:gap-y-0 md:flex-row md:py-12 w-full min-h-[85vh] md:gap-x-36 bg-backdrop px-12'>
 			<div>
 				<h1 className='flex flex-col font-semibold mb-8'>
 					<span>Hi.</span>
@@ -48,7 +48,7 @@ const HeroSection = () => {
 					src='/profile.png'
 					alt="Jesse's memoji"
 					width={350}
-					height={50}
+					height={100}
 					priority
 					className='bg-black/95 rounded-full'
 				/>

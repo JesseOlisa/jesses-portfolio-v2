@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 const Footer = () => {
 	return (
-		<footer className='flex-center flex-col w-full relative gap-5 bg-zinc-800/30 py-14 bg-opacity-20 border-y border-white border-opacity-10 px-8'>
+		<footer className='flex-center flex-col w-full gap-5 bg-zinc-800/30 py-14 bg-opacity-20 border-y border-white border-opacity-10 px-8'>
 			<h2 className='text-3xl md:text-4xl text-center uppercase mb-5 md:mb-1'>
 				Send me a message.
 			</h2>

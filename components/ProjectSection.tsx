@@ -51,7 +51,7 @@ const ProjectSection = () => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						exit={{ opacity: 0 }}
-						className='w-full h-screen fixed bg-black/70 flex-center top-0 left-0'
+						className='w-full z-10 h-screen fixed bg-black/75 flex-center top-0 left-0'
 					>
 						<motion.div
 							layoutId={showCard.name}
@@ -59,7 +59,7 @@ const ProjectSection = () => {
 							animate={{ opacity: 1 }}
 							exit={{ opacity: 0.5 }}
 							transition={{ duration: 0.3, ease: 'easeOut' }}
-							className=' max-w-[320px] md:max-w-[30rem] min-h-[20rem] bg-zinc-900 mt-5 mx-auto z-10 text-sm text-white'
+							className=' max-w-[320px] md:max-w-[25rem] min-h-[20rem] bg-zinc-900 mt-5 mx-auto z-10 text-sm text-white'
 						>
 							<div className='relative'>
 								<Image
