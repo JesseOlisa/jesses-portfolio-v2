@@ -19,7 +19,7 @@ const HeroSection = () => {
 						animate={{
 							width: '90%',
 						}}
-						transition={{ ease: 'easeIn', delay: 0.8, duration: 1.3 }}
+						transition={{ ease: 'easeIn', duration: 0.9 }}
 						className='block h-1 mt-1 bg-profile-bg max-w-sm'
 					></motion.span>
 				</h1>
@@ -32,26 +32,26 @@ const HeroSection = () => {
 				</p>
 			</div>
 			<motion.div
-				initial={{
-					padding: '1rem',
-				}}
-				animate={{
-					padding: '0.5rem',
-				}}
 				transition={{
-					delay: 0.5,
+					// delay: 0.5,
 					ease: 'easeInOut',
 				}}
-				className='bg-profile-bg rounded-full'
+				className='bg-profile-bg rounded-full p-2'
 			>
-				<Image
-					src='/hero_image.png'
-					alt="Jesse's memoji"
-					width={350}
-					height={100}
-					priority
-					className='bg-black/95 rounded-full'
-				/>
+				<motion.div
+					initial={{ scale: 0.95 }}
+					animate={{ scale: 1 }}
+					transition={{ duration: 0.8, ease: 'easeOut' }}
+				>
+					<Image
+						src='/hero_image.png'
+						alt="Jesse's memoji"
+						width={350}
+						height={100}
+						priority
+						className='bg-black/95 rounded-full'
+					/>
+				</motion.div>
 			</motion.div>
 		</section>
 	);
