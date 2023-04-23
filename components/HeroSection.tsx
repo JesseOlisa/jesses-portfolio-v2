@@ -11,10 +11,10 @@ const HeroSection = () => {
 				<h1 className='flex flex-col font-semibold mb-8'>
 					<span>Hi.</span>
 					<span>I&apos;m Jesse.</span>
-					<span className='text-[#BF40BF] font-semibold relative drop-shadow-[0_0_0.3rem_#BF40BF60]'>
+					<span className='text-[#BF40BF] font-semibold relative drop-shadow-[0_0_0.3rem_#BF40BF60] max-w-[270px] md:max-w-[420px] md:text-[1.7rem] lg:text-4xl'>
 						Frontend Developer.
+						<span className='block h-1 mt-1 bg-profile-bg md:max-w-[90%]'></span>
 					</span>
-					<span className='block h-1 mt-1 bg-profile-bg max-w-[90%]'></span>
 				</h1>
 				<p className='max-w-lg text-[0.9rem] md:text-[1.1rem] opacity-90 mb-3'>
 					I enjoy building various frontend products with great user experience.
