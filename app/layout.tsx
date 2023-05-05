@@ -6,8 +6,7 @@ export const metadata = {
 	description:
 		"Welcome to Jesse Olisa's portfolio. Web Developer and Frontend Engineer from West Africa.",
 	verification: {
-		google:
-			'google-site-verification=zSQw_SrYKkUNHr6G84F4JoqUa81ZtmyaFy_44uBOJG8',
+		google: 'zSQw_SrYKkUNHr6G84F4JoqUa81ZtmyaFy_44uBOJG8',
 	},
 };
 
