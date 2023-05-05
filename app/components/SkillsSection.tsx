@@ -24,6 +24,7 @@ const SkillsSection = () => {
 					alt='skills hero Image'
 					width={350}
 					height={100}
+					className='w-auto h-auto'
 				/>
 			</motion.div>
 			<h2 className='text-3xl md:text-4xl text-center uppercase mb-5 md:mb-1'>

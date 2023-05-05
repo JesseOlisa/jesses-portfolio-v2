@@ -33,7 +33,7 @@ const HeroSection = () => {
 						height={100}
 						onLoadingComplete={() => setloading(false)}
 						priority
-						className='bg-black/95 rounded-full'
+						className='bg-black/95 rounded-full w-auto h-auto'
 					/>
 				</div>
 			</div>
