@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { frontendTools } from '../utils/data';
+import { frontendTools } from '../../utils/data';
 
 const SkillsSection = () => {
 	let isMobileScreen = typeof window !== 'undefined' && window.innerWidth < 768;

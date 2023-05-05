@@ -2,10 +2,10 @@
 
 import React from 'react';
 
-import HeroSection from '@/components/HeroSection';
-import SkillsSection from '@/components/SkillsSection';
-import ProjectSection from '@/components/ProjectSection';
-import Footer from '@/components/Footer';
+import HeroSection from '@/app/components/HeroSection';
+import SkillsSection from '@/app/components/SkillsSection';
+import ProjectSection from '@/app/components/ProjectSection';
+import Footer from '@/app/components/Footer';
 
 const Home = () => {
 	return (
