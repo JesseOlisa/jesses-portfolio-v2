@@ -19,9 +19,9 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body>
-				<Analytics />
 				<Header />
 				{children}
+				<Analytics />
 			</body>
 		</html>
 	);
