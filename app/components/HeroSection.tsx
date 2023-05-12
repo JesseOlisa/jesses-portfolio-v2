@@ -5,7 +5,7 @@ import HeroImage from '../../public/hero_image.png';
 const HeroSection = () => {
 	const [loading, setloading] = useState(true);
 
-	const showHeroImage = loading ? 'opacity-0' : 'animate-fade-in';
+	// const showHeroImage = loading ? 'opacity-0' : 'animate-fade-in';
 	return (
 		<section className='py-12 flex-start md:flex-center flex-col-reverse gap-y-10 md:gap-y-0 md:flex-row md:py-12 w-full min-h-[85vh] md:gap-x-36 bg-backdrop px-12'>
 			<div>
@@ -26,7 +26,7 @@ const HeroSection = () => {
 				</p>
 			</div>
 			<div className='min-h-[100px]'>
-				<div className={`bg-profile-bg rounded-full p-2 ${showHeroImage}`}>
+				<div className={`bg-profile-bg rounded-full p-2 animate-fade-in`}>
 					<Image
 						src={HeroImage}
 						alt="Jesse's memoji"
