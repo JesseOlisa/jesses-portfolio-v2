@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import HeroImage from '../../public/hero_image.png';
 
 const HeroSection = () => {
 	const [loading, setloading] = useState(true);
@@ -27,7 +28,7 @@ const HeroSection = () => {
 			<div className='min-h-[100px]'>
 				<div className={`bg-profile-bg rounded-full p-2 ${showHeroImage}`}>
 					<Image
-						src='/hero_image.png'
+						src={HeroImage}
 						alt="Jesse's memoji"
 						width={350}
 						height={100}
