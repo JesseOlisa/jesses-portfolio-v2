@@ -1,6 +1,7 @@
 import './globals.css';
 import Header from '@/app/components/Header';
 import { Analytics } from '@vercel/analytics/react';
+import Script from 'next/script';
 
 export const metadata = {
 	title: 'Jesse Olisa',
@@ -17,12 +18,30 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang='en'>
-			<body>
-				<Header />
-				{children}
-				<Analytics />
-			</body>
-		</html>
+		<>
+			{/* <!-- Google tag (gtag.js) --> */}
+			<Script
+				async
+				src='https://www.googletagmanager.com/gtag/js?id=G-W0FZ1YZX0J'
+				strategy='afterInteractive'
+			/>
+			<Script
+				id='google-analytics'
+				strategy='afterInteractive'
+			>{`
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+			
+				gtag('config', 'G-W0FZ1YZX0J');
+				`}</Script>
+			<html lang='en'>
+				<body>
+					<Header />
+					{children}
+					<Analytics />
+				</body>
+			</html>
+		</>
 	);
 }
