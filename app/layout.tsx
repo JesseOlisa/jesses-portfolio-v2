@@ -19,23 +19,23 @@ export default function RootLayout({
 }) {
 	return (
 		<>
-			{/* <!-- Google tag (gtag.js) --> */}
-			<Script
-				async
-				src='https://www.googletagmanager.com/gtag/js?id=G-W0FZ1YZX0J'
-				strategy='afterInteractive'
-			/>
-			<Script
-				id='google-analytics'
-				strategy='afterInteractive'
-			>{`
+			<html lang='en'>
+				{/* <!-- Google tag (gtag.js) --> */}
+				<Script
+					async
+					src='https://www.googletagmanager.com/gtag/js?id=G-W0FZ1YZX0J'
+					strategy='afterInteractive'
+				/>
+				<Script
+					id='google-analytics'
+					strategy='afterInteractive'
+				>{`
 				window.dataLayer = window.dataLayer || [];
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
 			
 				gtag('config', 'G-W0FZ1YZX0J');
 				`}</Script>
-			<html lang='en'>
 				<body>
 					<Header />
 					{children}
