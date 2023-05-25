@@ -48,16 +48,16 @@ const ProjectSection = () => {
 				<AnimatePresence mode='wait'>
 					<motion.div
 						key='modal'
-						initial={{ opacity: 0 }}
+						// initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						exit={{ opacity: 0 }}
 						className='w-full z-10 h-screen fixed bg-black/75 flex-center top-0 left-0'
 					>
 						<motion.div
 							layoutId={showCard.name}
-							initial={{ opacity: 0.5 }}
+							// initial={{ opacity: 0.5 }}
 							animate={{ opacity: 1 }}
-							exit={{ opacity: 0.5 }}
+							// exit={{ opacity: 0.5 }}
 							transition={{ duration: 0.3, ease: 'easeOut' }}
 							className=' max-w-[320px] md:max-w-[25rem] min-h-[20rem] bg-zinc-900 mt-5 mx-auto z-10 text-sm text-white'
 						>

@@ -44,7 +44,7 @@ const Footer = () => {
 				>
 					<BsLinkedin
 						size={25}
-						className='opacity-50 transition scale-100 group-hover:scale-105 duration-300 group-hover:opacity-80'
+						className='opacity-50 transition scale-100 group-hover:scale-105 duration-200 group-hover:opacity-80'
 					/>
 				</Link>
 				<Link
