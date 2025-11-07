@@ -64,16 +64,16 @@ export const projects = [
     codeLink: "https://github.com/JesseOlisa/topfactoryng",
     image: "/projects/topfactoryng.png",
   },
-  {
-    name: "Rackoon",
-    category: "E-commerce, Social media",
-    shortDesc: "Save and organize products from multiple shopping platforms.",
-    longDesc:
-      "Add and save products from your favorite shopping platforms and websites in one place, and purchase later with ease.",
-    built: "Next.js, Zustand, TailwindCSS, Pusher, AI-powered Node.js backend",
-    siteLink: "https://rackoon.app/",
-    image: "/projects/rackoon.jpg",
-  },
+  // {
+  //   name: "Rackoon",
+  //   category: "E-commerce, Social media",
+  //   shortDesc: "Save and organize products from multiple shopping platforms.",
+  //   longDesc:
+  //     "Add and save products from your favorite shopping platforms and websites in one place, and purchase later with ease.",
+  //   built: "Next.js, Zustand, TailwindCSS, Pusher, AI-powered Node.js backend",
+  //   siteLink: "https://rackoon.app/",
+  //   image: "/projects/rackoon.jpg",
+  // },
   {
     name: "InstantOTP",
     category: "Web App / Utility",
