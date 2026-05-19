@@ -7,4 +7,5 @@ export type projectType = {
   siteLink: string;
   codeLink?: string;
   image: string;
+  useDynamicScreenshot?: boolean;
 };
